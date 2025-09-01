@@ -11,9 +11,12 @@ var navlinks = document.getElementById("navlinks");
 function showmenu(){
     navlinks.style.display = "block";
     show.style.display = "none"
+    hide.style.display = "block"
 }
 function hidemenu(){
     navlinks.style.display = "none";
+        hide.style.display = "none"
+
     show.style.display = "block"
 }
 

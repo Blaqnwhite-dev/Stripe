@@ -56,7 +56,7 @@ header {
 
 .subnav3 button {
     padding: 12px;
-    background-color: hsla(0, 0%, 100%, 0.2);
+    background-color: transparent;
     border: none;
     border-radius: 16.5px;
 }
@@ -65,7 +65,7 @@ header {
     text-decoration: none;
     font-size: 15px;
     font-weight: bold;
-    color: black;
+    color: white;
 }
 
 
@@ -2913,6 +2913,9 @@ element.style {
     letter-spacing: -0.4px;
 }
 #showmenu{
+    display: none;
+}
+#hidemenu{
     display: none;
 }
 
