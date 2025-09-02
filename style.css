@@ -3146,10 +3146,10 @@ element.style {
     .container h1 {
         font-size: 65px;
         font-weight: 700;
-        margin-top: 55px;
+        margin-top: 60px;
     }
     .container-fluid {
-        height: 65vh;
+        height: 60vh;
     }
     .container8{
         grid-template-columns: repeat(1, 1fr);
