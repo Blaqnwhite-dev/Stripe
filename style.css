@@ -3143,13 +3143,17 @@ element.style {
 }
 
 @media(max-width:760px){
+    .container-fluid{
+            clip-path: polygon(0 0, 100% 0%, 100% 75%, 0% 100%);
+
+    }
     .container h1 {
         font-size: 65px;
         font-weight: 700;
-        margin-top: 60px;
+        margin-top: 25px;
     }
     .container-fluid {
-        height: 60vh;
+        height: 55vh;
     }
     .container8{
         grid-template-columns: repeat(1, 1fr);
